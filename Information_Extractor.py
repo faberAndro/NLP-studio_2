@@ -9,10 +9,11 @@ import networkx as nx
 import time
 import requests
 from collections import defaultdict
-# nltk.download('punkt')
-# nltk.download('stopwords')
-# nltk.download('wordnet')
-# nltk.download('averaged_perceptron_tagger')
+
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 
 def load_GloVe_dictionary():
